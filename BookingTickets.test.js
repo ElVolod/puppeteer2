@@ -1,4 +1,4 @@
-const { selectDay, selectMovieSession, selectChair } = require("./commands"); // Если файл лежит в той же папке
+const { selectDay, selectMovieSession, selectChair } = require("./commands");
 
 describe("Кинотеатр 'ИдёмВКино' — Тестирование бронирования билетов", () => {
 let page;

@@ -7,10 +7,17 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "cucumber": "cucumber-js",
+    "cucumber2": "cucumber-js --tags=@only"
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
     "jest-puppeteer": "^11.0.0",
     "puppeteer": "^25.13.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "npm": "^12.2.1"
   }
 }
